@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Monedas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Monedas</h1>
+
+        <!-- Contenedor de monedas -->
+        <div class="input-container">
+            <label for="from-currency">Moneda de origen:</label>
+            <select id="from-currency">
+                <!-- Las opciones se llenarán dinámicamente -->
+            </select>
+            <input type="number" id="amount" placeholder="Cantidad" />
+        </div>
+
+        <div class="input-container">
+            <label for="to-currency">Moneda destino:</label>
+            <select id="to-currency">
+                <!-- Las opciones se llenarán dinámicamente -->
+            </select>
+            <input type="text" id="result" disabled placeholder="Resultado" />
+        </div>
+
+        <div class="loading-container" id="loading" style="display:none;">
+            <p>Cargando...</p>
+        </div>
+
+        <button id="convert-btn">Convertir</button>
+
+        <p id="exchange-rate" style="margin-top: 10px; font-style: italic; color: #555;"></p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
