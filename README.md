@@ -32,7 +32,3 @@ Este es un proyecto de un **Conversor de Monedas** donde puedes convertir una mo
     ```
 
 2. Abre el archivo `index.html` en tu navegador.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
