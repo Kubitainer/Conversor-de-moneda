@@ -28,7 +28,7 @@ Este es un proyecto de un **Conversor de Monedas** donde puedes convertir una mo
 
 1. Clona este repositorio:
     ```bash
-    git clone https://github.com/tu_usuario/conversor-de-moneda.git
+    git clone https://github.com/kubitainer/conversor-de-moneda.git
     ```
 
 2. Abre el archivo `index.html` en tu navegador.
